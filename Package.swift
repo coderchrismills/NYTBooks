@@ -23,7 +23,6 @@ let package = Package(
             .product(name: "SwiftyJSON", package: "SwiftyJSON"),
             .product(name: "Table", package: "Table"),
             .product(name: "SwiftyTextTable", package: "SwiftyTextTable")
-        ]),
-        .testTarget(name: "NYTBooksTests", dependencies: ["NYTBooks"]),
+        ])
     ]
 )

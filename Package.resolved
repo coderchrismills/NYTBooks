@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "becd9a729a37bdbef5bc39dc3c702b99f9e3d046",
+          "version": "5.2.2"
+        }
+      },
+      {
+        "package": "Chalk",
+        "repositoryURL": "https://github.com/mxcl/Chalk.git",
+        "state": {
+          "branch": null,
+          "revision": "9aa9f348b86db3cf6702a3e43c081ecec80cf3c7",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "92646c0cdbaca076c8d3d0207891785b3379cbff",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "2b6054efa051565954e1d2b9da831680026cd768",
+          "version": "4.3.0"
+        }
+      },
+      {
+        "package": "SwiftyTextTable",
+        "repositoryURL": "https://github.com/scottrhoyt/SwiftyTextTable.git",
+        "state": {
+          "branch": null,
+          "revision": "c6df6cf533d120716bff38f8ff9885e1ce2a4ac3",
+          "version": "0.9.0"
+        }
+      },
+      {
+        "package": "Table",
+        "repositoryURL": "https://github.com/JanGorman/Table",
+        "state": {
+          "branch": null,
+          "revision": "7b8521c3b1078ba0b347964aec7c503cd6f1ff40",
+          "version": "1.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -4,7 +4,7 @@
 
 You will need an API key from [NY Times API](https://developer.nytimes.com/docs/books-product/1/overview) portal.
 
-Once you have your api key nytb will use the environment variable `NYT_BOOK_API` during runtime to necessary make API calls.
+Once you have your api key nytb will use the environment variable `NYT_BOOK_API` during runtime to make necessary API calls.
 
 ## Available Commands
 

@@ -9,7 +9,6 @@ import Foundation
 import ArgumentParser
 import Chalk
 import SwiftyJSON
-import Table
 
 extension NYTBooks {
     struct Overview: ParsableCommand {

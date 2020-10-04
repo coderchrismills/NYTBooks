@@ -1,7 +1,13 @@
+//
+//  main.swift
+//
+//
+//  Created by Richard Mills on 10/3/20.
+//
+
 import Foundation
 import ArgumentParser
 import Chalk
-import Alamofire
 import SwiftyJSON
 import SwiftyTextTable
 

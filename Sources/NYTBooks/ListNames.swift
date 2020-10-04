@@ -7,8 +7,6 @@
 
 import Foundation
 
-// NYTList.Names.manga.encoded
-
 struct NYTList {
     enum Names: String, CaseIterable {
         case combinedPrintAndEBookFiction       = "Combined Print & E-Book Fiction"

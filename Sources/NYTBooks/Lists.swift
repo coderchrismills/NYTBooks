@@ -8,9 +8,7 @@
 import Foundation
 import ArgumentParser
 import Chalk
-import Alamofire
 import SwiftyJSON
-import Table
 import SwiftyTextTable
 
 extension NYTBooks {

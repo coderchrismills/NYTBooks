@@ -12,7 +12,7 @@ Once you have your api key nytb will use the environment variable `NYT_BOOK_API`
 
 #### List available categories
 
-`nytb list --list` 
+`nytb list --categories` 
     
     1    Combined Print & E-Book Fiction
     2    Combined Print & E-Book Nonfiction
@@ -23,7 +23,7 @@ Once you have your api key nytb will use the environment variable `NYT_BOOK_API`
 
 #### List best sellers for a given category
 
-`nytb list -l 4`
+`nytb list -c 4`
 
     +---------------------------------------------------------------------------------------------------------------------------------+
     | Hardcover Nonfiction                                                                                                            |
@@ -33,11 +33,29 @@ Once you have your api key nytb will use the environment variable `NYT_BOOK_API`
     | Rage                 | Bob Woodward         | 9781982131739 | https://www.amazon.com/dp/198213173X?tag=NYTBSREV-20&tag=NYTBS-20 |
     | Killing Crazy Horse  | Bill O'Reilly and Ma | 9781627797047 | https://www.amazon.com/dp/1627797041?tag=NYTBSREV-20&tag=NYTBS-20 |
     | Blackout             | Candace Owens        | 9781982133276 | https://www.amazon.com/dp/1982133279?tag=NYTBSREV-20&tag=NYTBS-20 |
-    | Caste                | Isabel Wilkerson     | 9780593230251 | https://www.amazon.com/dp/0593230256?tag=NYTBSREV-20&tag=NYTBS-20 |
     ...
     | Everything Beautiful | Jenna Bush Hager     | 9780062960627 | https://www.amazon.com/dp/0062960628?tag=NYTBSREV-20&tag=NYTBS-20 |
     | Too Much And Never E | Mary L Trump         | 9781982141462 | https://www.amazon.com/dp/1982141468?tag=NYTBSREV-20&tag=NYTBS-20 |
     +----------------------+----------------------+---------------+-------------------------------------------------------------------+
+
+#### List best sellers for a given category
+
+Available Options:  `--amazon/--bookshop/--indiebound`
+
+`nytb list -c 4 --bookshop`
+
+    +---------------------------------------------------------------------------------------------------------+
+    | Hardcover Nonfiction                                                                                    |
+    +---------------------------------------------------------------------------------------------------------+
+    | Title                | Author               | ISBN 13       | BookShop                                  |
+    +----------------------+----------------------+---------------+-------------------------------------------+
+    | The Meaning Of Maria | Mariah Carey with Mi | 9781250164681 | https://bookshop.org/a/3546/9781250164681 |
+    | Rage                 | Bob Woodward         | 9781982131739 | https://bookshop.org/a/3546/9781982131739 |
+    | Caste                | Isabel Wilkerson     | 9780593230251 | https://bookshop.org/a/3546/9780593230251 |
+    ...
+    | The Man Who Ran Wash | Peter Baker and Susa | 9780385540551 | https://bookshop.org/a/3546/9780385540551 |
+    | Live Not By Lies     | Rod Dreher           | 9780593087398 | https://bookshop.org/a/3546/9780593087398 |
+    +----------------------+----------------------+---------------+-------------------------------------------+
 
 ### review
 
@@ -86,4 +104,3 @@ Once you have your api key nytb will use the environment variable `NYT_BOOK_API`
         Amazon:https://www.amazon.com/dp/198213173X?tag=NYTBSREV-20?tag=NYTBS-20
         Bookshop:https://bookshop.org/a/3546/9781982131739
         Indiebound:https://www.indiebound.org/book/9781982131739?aff=NYT
-    
